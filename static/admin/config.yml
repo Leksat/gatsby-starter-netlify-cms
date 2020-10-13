@@ -1,6 +1,7 @@
 i18n:
   structure: multiple_folders
   locales: [en, de, fr]
+  default_locale: en
 
 backend:
   name: git-gateway
