@@ -33,10 +33,10 @@ collections:
 
   - name: "pages"
     label: "Pages"
-    i18n: true
     files:
       - file: "src/pages/index.md"
         label: "Landing Page"
+        i18n: true
         name: "index"
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
